@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustonStepByStep">
+        <attr name="step1" format="enum">
+            <enum name="none"   value="0"/>
+            <enum name="select" value="1"/>
+            <enum name="done"   value="2"/>
+        </attr>
+        <attr name="step2">
+            <enum name="none"   value="0"/>
+            <enum name="select" value="1"/>
+            <enum name="done"   value="2"/>
+        </attr>
+        <attr name="step3">
+            <enum name="none"   value="0"/>
+            <enum name="select" value="1"/>
+            <enum name="done"   value="2"/>
+        </attr>
+        <attr name="step4">
+            <enum name="none"   value="0"/>
+            <enum name="select" value="1"/>
+            <enum name="done"   value="2"/>
+        </attr>
+        <attr name="step1text" format="string"/>
+        <attr name="step2text" format="string"/>
+        <attr name="step3text" format="string"/>
+        <attr name="step4text" format="string"/>
+    </declare-styleable>
+</resources>
